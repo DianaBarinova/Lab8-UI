@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="463.0" prefWidth="573.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="com.example.convertation.ConvertController">
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+   <children>
+      <AnchorPane prefHeight="429.0" prefWidth="533.0">
+         <children>
+            <TextField fx:id="resShestn" layoutX="303.0" layoutY="301.0" prefHeight="54.0" prefWidth="202.0" />
+            <Button fx:id="dvoich" layoutX="31.0" layoutY="117.0" mnemonicParsing="false" onAction="#convertDvoich" prefHeight="54.0" prefWidth="202.0" text="Двоичная система" />
+            <Button fx:id="Shestn" layoutX="31.0" layoutY="301.0" mnemonicParsing="false" onAction="#convertShestn" prefHeight="54.0" prefWidth="202.0" text="Шестнадцатиричная система" />
+            <Button fx:id="vosmirich" layoutX="31.0" layoutY="212.0" mnemonicParsing="false" onAction="#convertVocmirich" prefHeight="54.0" prefWidth="202.0" text="Восьмеричная система " />
+            <TextField fx:id="resVosmirich" layoutX="303.0" layoutY="212.0" prefHeight="54.0" prefWidth="202.0" />
+            <TextField fx:id="resDvoich" layoutX="303.0" layoutY="117.0" prefHeight="54.0" prefWidth="202.0" />
+            <TextField fx:id="Enternumber" layoutX="166.0" layoutY="32.0" prefHeight="54.0" prefWidth="202.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
